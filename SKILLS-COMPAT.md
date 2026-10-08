@@ -1,3 +1,5 @@
+Konum notu: skill'ler MCP depolarının `skills/` altındadır (bkz. README tablosu).
+
 # SKILLS-COMPAT — skill'leri diger uygulamalara tasma
 
 Bu depodaki skill'ler (isnad, isnad-atiyaz, isnad-kunye, isnad-word, dilekce-yazimi, makale-translation)
