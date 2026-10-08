@@ -7,7 +7,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
-$skills = Get-ChildItem $root -Directory | Where-Object { Test-Path (Join-Path $_.FullName 'SKILL.md') }
+    $skills = Get-ChildItem (Join-Path $root '*\skills\*') -Directory | Where-Object { Test-Path (Join-Path $_.FullName 'SKILL.md') }
 
 if (-not $skills) {
     throw "Skill bulunamadi: $root altinda SKILL.md iceren klasor yok."
