@@ -1,6 +1,6 @@
 # SKILLS-COMPAT — skill'leri diger uygulamalara tasma
 
-Bu depodaki skill'ler (isnad, isnad-atiyaz, isnad-kunye, isnad-word, dilekce-yazimi)
+Bu depodaki skill'ler (isnad, isnad-atiyaz, isnad-kunye, isnad-word, dilekce-yazimi, makale-translation)
 standart `SKILL.md` bicimindedir; kurulum = klasoru hedefe kopyalamak.
 
 | Uygulama | Hedef | Not |
